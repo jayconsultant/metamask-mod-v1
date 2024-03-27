@@ -70,7 +70,7 @@ async function reportMissingMessages(code) {
 
   log.info(`**${code}**: ${coveragePercent.toFixed(2)}% coverage`);
   if (missingItems.length && verbose) {
-    console.log(`**${code}**: ${missingItems.length} missing messages`);
+    console.log(`**${code}**: ${missingItems.length} missing message`);
     log.info('Extra items that should not be localized:');
     missingItems.forEach(function (key) {
       log.info(`  - [ ] ${key}`);
