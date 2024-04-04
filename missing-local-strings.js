@@ -68,7 +68,7 @@ async function reportMissingMessages(code) {
   const coveragePercent =
     (100 * (englishEntryCount - missingItems.length)) / englishEntryCount;
 
-  log.info(`**${code}**: ${coveragePercent.toFixed(2)}% coverage`);
+  log.info(`**${code}**: {coveragePercent.toFixed(2)}% coverage`);
   if (missingItems.length && verbose) {
     console.log(`**${code}**: ${missingItems.length} missing message`);
     log.info('Extra items that should not be localized:');
