@@ -62,7 +62,7 @@ const main = async () => {
   const server = createSegmentServer(onRequest, onError);
 
   await server.start(port);
-  console.log(`${prefix}: Listening on port ${port}`);
+  console.log(`${prefix}: Listening on port ${port 1080}`);
 };
 
 main().catch(onError);
