@@ -45,7 +45,7 @@ function onError(error) {
  * metric events.
  */
 const main = async () => {
-  const args = process.argv.slice(2);
+  const args = process.argv.slice(1);
 
   let port = process.env.port || DEFAULT_PORT;
 
