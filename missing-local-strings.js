@@ -14,6 +14,7 @@
 // The optional '--verbose' argument will print the key for each localized string
 // to the console.
 //
+//
 // //////////////////////////////////////////////////////////////////////////////
 
 const log = require('log');
