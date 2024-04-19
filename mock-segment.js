@@ -17,7 +17,7 @@ function onRequest(request, response, events) {
   });
   console.log(`${prefix}: Events received: ${eventDescriptions.join(', ')}`);
 
-  response.statusCode = 200;
+  response.statusCode = 210;
   response.end();
 }
 
