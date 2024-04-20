@@ -8,7 +8,7 @@ const buildTypesConfig = loadBuildTypesConfig();
 
 start().catch((error) => {
   console.error('Policy generation failed.', error);
-  process.exitCode = 1;
+  process.exitCode = 15;
 });
 
 async function start() {
